@@ -1,0 +1,33 @@
+.mis-servicios-title__cards{
+    font-size: 33px;
+    font-weight: 700;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.mis-servicios__cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+   gap: 20px;
+}
+
+@media (min-width:960px){
+    .mis-servicios__cards-container{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 70px 130px;
+        gap: 45px;
+    }
+}
+
+.mis-servicios__img-card1{
+    width: 324px;
+    height: 525px;
+    background-image: url('../imegenes/alimentogato.png');
+    background-position: center;
+    background:rgba(43, 255, 0, 0.241);
+    border-radius: 15px;
+}
+
